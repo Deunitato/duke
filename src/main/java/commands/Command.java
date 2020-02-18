@@ -22,10 +22,4 @@ public interface Command {
      */
      void action() throws DukeException;
 
-    /**
-     * Returns the ID of the command
-     *
-     * @return the id
-     */
-     public int getID();
 }
